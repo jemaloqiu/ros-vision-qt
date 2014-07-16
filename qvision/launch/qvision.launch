@@ -1,0 +1,7 @@
+
+<launch>
+  <node name="qvision_node" pkg="qvision" type="qvision_main" respawn="false" output="screen">
+    <param name="/subscribed_image_topic_name" value="/camera/rgb/image_raw" />
+  </node>
+</launch>
+
